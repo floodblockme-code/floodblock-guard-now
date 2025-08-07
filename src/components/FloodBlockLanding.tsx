@@ -105,23 +105,41 @@ const FloodBlockLanding = () => {
       <section className="relative overflow-hidden bg-gradient-to-br from-primary via-flood-water to-accent py-20">
         <div className="absolute inset-0 bg-black/10"></div>
         <div className="container relative z-10 mx-auto px-4">
-          <div className="text-center text-white">
-            <Badge variant="secondary" className="mb-4 bg-white/20 text-white border-white/30">
-              Revolutionary Flood Protection
-            </Badge>
-            <h1 className="text-5xl md:text-7xl font-bold mb-6 drop-shadow-lg">
-              FloodBlock
-            </h1>
-            <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto opacity-90">
-              Protect your property in just 2 minutes with our innovative WPC flood barrier system
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" className="bg-white text-primary hover:bg-white/90 shadow-[var(--shadow-cta)]">
-                Get Free Quote
-              </Button>
-              <Button variant="outline" size="lg" className="border-white text-white hover:bg-white/10">
-                Learn More
-              </Button>
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            <div className="text-white">
+              <Badge variant="secondary" className="mb-4 bg-white/20 text-white border-white/30">
+                Revolutionary Flood Protection
+              </Badge>
+              <div className="mb-8">
+                <img 
+                  src="/lovable-uploads/58e2087d-4c26-4d01-85be-e7180f683bcf.png" 
+                  alt="FloodBlock Logo" 
+                  className="h-24 md:h-32 mb-6"
+                />
+              </div>
+              <p className="text-xl md:text-2xl mb-8 max-w-2xl opacity-90">
+                Protect your property in just 2 minutes with our innovative WPC flood barrier system
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4">
+                <Button size="lg" className="bg-white text-primary hover:bg-white/90 shadow-[var(--shadow-cta)]">
+                  Get Free Quote
+                </Button>
+                <Button variant="outline" size="lg" className="border-white text-white hover:bg-white/10">
+                  Learn More
+                </Button>
+              </div>
+            </div>
+            <div className="lg:text-center">
+              <div className="bg-white/10 backdrop-blur-sm rounded-lg p-8">
+                <img 
+                  src="/lovable-uploads/fabc4d74-a72c-48e2-9d9a-7200325e2e03.png" 
+                  alt="FloodBlock installed at door entrance showing white barrier panel with black locking mechanism" 
+                  className="w-full h-auto rounded-lg shadow-xl"
+                />
+                <p className="text-white/90 mt-4 text-sm">
+                  FloodBlock installed and ready for protection
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -189,29 +207,44 @@ const FloodBlockLanding = () => {
             </p>
           </div>
           
-          <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
-            <div className="text-center">
-              <div className="bg-primary text-primary-foreground rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">
-                1
-              </div>
-              <h3 className="text-xl font-semibold mb-2 text-foreground">Permanent Installation</h3>
-              <p className="text-muted-foreground">U-shaped frame is professionally installed around your openings once</p>
+          <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
+            <div>
+              <img 
+                src="/lovable-uploads/fabc4d74-a72c-48e2-9d9a-7200325e2e03.png" 
+                alt="FloodBlock barrier system showing U-shaped frame and barrier panel at door entrance" 
+                className="w-full h-auto rounded-lg shadow-xl"
+              />
             </div>
-            
-            <div className="text-center">
-              <div className="bg-accent text-accent-foreground rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">
-                2
+            <div className="space-y-8">
+              <div className="flex gap-4">
+                <div className="bg-primary text-primary-foreground rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold flex-shrink-0">
+                  1
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold mb-2 text-foreground">Permanent Installation</h3>
+                  <p className="text-muted-foreground">U-shaped frame is professionally installed around your openings once. The black frame components remain in place permanently.</p>
+                </div>
               </div>
-              <h3 className="text-xl font-semibold mb-2 text-foreground">Emergency Activation</h3>
-              <p className="text-muted-foreground">When flood warning issued, simply insert the barrier into the frame</p>
-            </div>
-            
-            <div className="text-center">
-              <div className="bg-protection-green text-white rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">
-                3
+              
+              <div className="flex gap-4">
+                <div className="bg-accent text-accent-foreground rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold flex-shrink-0">
+                  2
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold mb-2 text-foreground">Emergency Activation</h3>
+                  <p className="text-muted-foreground">When flood warning issued, simply insert the white WPC barrier panel into the permanent frame - takes just 2 minutes!</p>
+                </div>
               </div>
-              <h3 className="text-xl font-semibold mb-2 text-foreground">Secure Protection</h3>
-              <p className="text-muted-foreground">Lock mechanism secures barrier - your property is now protected</p>
+              
+              <div className="flex gap-4">
+                <div className="bg-protection-green text-white rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold flex-shrink-0">
+                  3
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold mb-2 text-foreground">Secure Protection</h3>
+                  <p className="text-muted-foreground">Lock mechanism secures the barrier panel firmly in place - your property is now completely protected from flood water.</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -373,7 +406,11 @@ const FloodBlockLanding = () => {
       {/* Footer */}
       <footer className="bg-foreground text-background py-8">
         <div className="container mx-auto px-4 text-center">
-          <h3 className="text-2xl font-bold mb-2">FloodBlock</h3>
+          <img 
+            src="/lovable-uploads/58e2087d-4c26-4d01-85be-e7180f683bcf.png" 
+            alt="FloodBlock Logo" 
+            className="h-16 mx-auto mb-4 opacity-80"
+          />
           <p className="text-background/80 mb-4">Protecting Australian homes and businesses since 2024</p>
           <p className="text-sm text-background/60">
             © 2024 FloodBlock. All rights reserved. | Privacy Policy | Terms of Service
