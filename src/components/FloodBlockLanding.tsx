@@ -260,20 +260,20 @@ const FloodBlockLanding = () => {
           <div className="grid md:grid-cols-3 gap-8">
             {[
               {
-                name: "Sarah Johnson",
-                location: "Brisbane, QLD",
+                name: "Priya Sharma",
+                location: "Mumbai, Maharashtra",
                 rating: 5,
-                text: "FloodBlock saved our home during the last flood. Installation was quick and it worked perfectly!"
+                text: "FloodBlock saved our home during the monsoon floods. Installation was quick and it worked perfectly!"
               },
               {
-                name: "Michael Chen",
-                location: "Sydney, NSW",
+                name: "Rajesh Kumar",
+                location: "Chennai, Tamil Nadu",
                 rating: 5,
                 text: "Best investment we've made. Peace of mind knowing we can protect our property in minutes."
               },
               {
-                name: "Emma Williams",
-                location: "Melbourne, VIC",
+                name: "Anita Patel",
+                location: "Kolkata, West Bengal",
                 rating: 5,
                 text: "The WPC material is fantastic - no maintenance required and looks great too."
               }
@@ -313,16 +313,12 @@ const FloodBlockLanding = () => {
                 <h3 className="text-2xl font-semibold mb-6">Contact Information</h3>
                 <div className="space-y-4">
                   <div className="flex items-center gap-3">
-                    <Phone className="h-5 w-5" />
-                    <span>1800 FLOOD BLOCK</span>
-                  </div>
-                  <div className="flex items-center gap-3">
                     <Mail className="h-5 w-5" />
-                    <span>info@floodblock.com.au</span>
+                    <span>floodblock.me@gmail.com</span>
                   </div>
                   <div className="flex items-center gap-3">
                     <MapPin className="h-5 w-5" />
-                    <span>Servicing Australia Wide</span>
+                    <span>Servicing India Wide</span>
                   </div>
                 </div>
                 
@@ -339,7 +335,7 @@ const FloodBlockLanding = () => {
                     </li>
                     <li className="flex items-center gap-2">
                       <CheckCircle className="h-4 w-4" />
-                      <span>Australian made WPC material</span>
+                      <span>High-quality WPC material</span>
                     </li>
                     <li className="flex items-center gap-2">
                       <CheckCircle className="h-4 w-4" />
@@ -411,7 +407,7 @@ const FloodBlockLanding = () => {
             alt="FloodBlock Logo" 
             className="h-16 mx-auto mb-4 opacity-80"
           />
-          <p className="text-background/80 mb-4">Protecting Australian homes and businesses since 2024</p>
+          <p className="text-background/80 mb-4">Protecting Indian homes and businesses since 2024</p>
           <p className="text-sm text-background/60">
             © 2024 FloodBlock. All rights reserved. | Privacy Policy | Terms of Service
           </p>
